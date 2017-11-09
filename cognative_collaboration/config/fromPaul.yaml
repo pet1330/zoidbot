@@ -1,0 +1,105 @@
+grid:
+    size: [5, 5]                            # width and hight of the grid
+    side: [5, 2]                            # left and right size width
+    cell_size: [0.12, 0.12]                 # width and height of each grid cell in meters
+object_list:
+    - obj01:
+        tracking_ids: [1, 1, 1]           # left, back, right
+        line_length: 0.018                 # length of the line on top of the box
+        line_direction: 180              # direction of the line on top of the box
+    - obj02:
+        tracking_ids: [2, 2, 2]           # left, back, right
+        line_length: 0.0216                 # length of the line on top of the box
+        line_direction: 162              # direction of the line on top of the box
+    - obj03:
+        tracking_ids: [3, 3, 3]           # tracking Marker ID left, back, right
+        line_length: 0.0288                 # length of the line on top of the box
+        line_direction: 162              # direction of the line on top of the box
+    - obj04:
+        tracking_ids: [4, 4, 4]         # tracking Marker ID left, back, right
+        line_length: 0.0108                 # length of the line on top of the box
+        line_direction: 144              # direction of the line on top of the box
+    - obj05:
+        tracking_ids: [5, 5, 5]        # tracking Marker ID left, back, right
+        line_length: 0.018                 # length of the line on top of the box
+        line_direction: 144              # direction of the line on top of the box
+    - obj06:
+        tracking_ids: [6, 6, 6]        # tracking Marker ID left, back, right
+        line_length: 0.0252                 # length of the line on top of the box
+        line_direction: 144              # direction of the line on top of the box
+    - obj07:
+        tracking_ids: [7, 7, 7]        # tracking Marker ID left, back, right
+        line_length: 0.0324                 # length of the line on top of the box
+        line_direction: 144              # direction of the line on top of the box
+    - obj08:
+        tracking_ids: [8, 8, 8]        # tracking Marker ID left, back, right
+        line_length: 0.0072                 # length of the line on top of the box
+        line_direction: 126              # direction of the line on top of the box
+    - obj09:
+        tracking_ids: [9, 9, 9]        # tracking Marker ID left, back, right
+        line_length: 0.0144                 # length of the line on top of the box
+        line_direction: 126              # direction of the line on top of the box
+    - obj10:
+        tracking_ids: [10, 10, 10]        # tracking Marker ID left, back, right
+        line_length: 0.018                 # length of the line on top of the box
+        line_direction: 126              # direction of the line on top of the box
+    - obj11:
+        tracking_ids: [11, 11, 11]        # tracking Marker ID left, back, right
+        line_length: 0.0252                 # length of the line on top of the box
+        line_direction: 108              # direction of the line on top of the box
+    - obj12:
+        tracking_ids: [12, 12, 12]        # tracking Marker ID left, back, right
+        line_length: 0.0324                 # length of the line on top of the box
+        line_direction: 108              # direction of the line on top of the box
+    - obj13:
+        tracking_ids: [13, 13, 13]        # tracking Marker ID left, back, right
+        line_length: 0.0072                 # length of the line on top of the box
+        line_direction: 72              # direction of the line on top of the box
+    - obj14:
+        tracking_ids: [14, 14, 14]        # tracking Marker ID left, back, right
+        line_length: 0.0144                 # length of the line on top of the box
+        line_direction: 72              # direction of the line on top of the box
+    - obj15:
+        tracking_ids: [15, 15, 15]        # tracking Marker ID left, back, right
+        line_length: 0.0216                 # length of the line on top of the box
+        line_direction: 54              # direction of the line on top of the box
+    - obj16:
+        tracking_ids: [16, 16, 16]        # tracking Marker ID left, back, right
+        line_length: 0.0252                 # length of the line on top of the box
+        line_direction: 54              # direction of the line on top of the box
+    - obj17:
+        tracking_ids: [17, 17, 17]        # tracking Marker ID left, back, right
+        line_length: 0.0324                 # length of the line on top of the box
+        line_direction: 54              # direction of the line on top of the box
+    - obj18:
+        tracking_ids: [18, 18, 18]        # tracking Marker ID left, back, right
+        line_length: 0.0072                 # length of the line on top of the box
+        line_direction: 36              # direction of the line on top of the box
+    - obj19:
+        tracking_ids: [19, 19, 19]        # tracking Marker ID left, back, right
+        line_length: 0.0144                 # length of the line on top of the box
+        line_direction: 36              # direction of the line on top of the box
+    - obj20:
+        tracking_ids: [20, 20, 20]        # tracking Marker ID left, back, right
+        line_length: 0.0216                 # length of the line on top of the box
+        line_direction: 36              # direction of the line on top of the box
+    - obj21:
+        tracking_ids: [21, 21, 21]        # tracking Marker ID left, back, right
+        line_length: 0.0288                 # length of the line on top of the box
+        line_direction: 36              # direction of the line on top of the box
+    - obj22:
+        tracking_ids: [22, 22, 22]        # tracking Marker ID left, back, right
+        line_length: 0.0108                 # length of the line on top of the box
+        line_direction: 18              # direction of the line on top of the box
+    - obj23:
+        tracking_ids: [23, 23, 23]        # tracking Marker ID left, back, right
+        line_length: 0.018                 # length of the line on top of the box
+        line_direction: 18              # direction of the line on top of the box
+    - obj24:
+        tracking_ids: [24, 24, 24]        # tracking Marker ID left, back, right
+        line_length: 0.0216                 # length of the line on top of the box
+        line_direction: 0              # direction of the line on top of the box
+    - obj25:
+        tracking_ids: [25, 25, 25]        # tracking Marker ID left, back, right
+        line_length: 0.0198                 # length of the line on top of the box
+        line_direction: 90              # direction of the line on top of the box
