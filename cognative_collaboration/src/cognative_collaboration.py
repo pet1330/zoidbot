@@ -12,25 +12,17 @@
 
 """
 
-import random
-# import sys
-from time import sleep, gmtime, strftime
-from math import sqrt
-import actionlib
-import baxter_interface
-from mary_tts.msg import maryttsAction, maryttsGoal
-# from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
-from tracking.msg import labelledPose_array
-# import matplotlib.pyplot as plt
-import numpy as np
-import rospkg
-import rospy
 import yaml
-# from PyQt4.QtGui import QApplication, QDialog, QGridLayout, QHBoxLayout, QListWidget, QPushButton, QVBoxLayout
-# from PyQt4 import QtCore
-# import rospy
-# from std_msgs.msg import String
-# import getopt
+import rospy
+import random
+import rospkg
+import actionlib
+import numpy as np
+from math import sqrt
+import baxter_interface
+from time import sleep, gmtime, strftime
+from tracking.msg import labelledPose_array
+from mary_tts.msg import maryttsAction, maryttsGoal
 
 
 class Box(object):
